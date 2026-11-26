@@ -15,7 +15,7 @@ MonoBehaviour:
   displayName: Slow Tower
   prefab: {fileID: 9215399825038353361, guid: 6ba284bec90484e47a36039b5a2e8b44, type: 3}
   projectilePrefab: {fileID: 2092777232227346601, guid: 9aafb6cfde87f0341b3152d4145e07ca, type: 3}
-  cost: 100
+  cost: 675
   sellValue: 75
   range: 5
   fireRate: 5

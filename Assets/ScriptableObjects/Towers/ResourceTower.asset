@@ -15,7 +15,7 @@ MonoBehaviour:
   displayName: Resource Tower
   prefab: {fileID: 9215399825038353361, guid: 3aa49dac0a4b5ec46836b06f3e538871, type: 3}
   projectilePrefab: {fileID: 2092777232227346601, guid: 9aafb6cfde87f0341b3152d4145e07ca, type: 3}
-  cost: 100
+  cost: 250
   sellValue: 75
   range: 0
   fireRate: 0
@@ -35,8 +35,8 @@ MonoBehaviour:
   burnDamagePerTick: 5
   burnDuration: 2
   burnTickRate: 0.5
-  resourceGain: 5
-  resourceInterval: 5
+  resourceGain: 20
+  resourceInterval: 2
   upgradeLevels:
   - levelName: Level 2
     upgradeCost: 100
@@ -54,5 +54,41 @@ MonoBehaviour:
     burnDamagePerTickBonus: 0
     burnDurationBonus: 0
     burnTickRateMultiplier: 0
-    resourceGainBonus: 5
-    resourceIntervalMultiplier: -1
+    resourceGainBonus: 30
+    resourceIntervalMultiplier: 3
+  - levelName: Level 3
+    upgradeCost: 550
+    damageBonus: 0
+    rangeBonus: 0
+    fireRateBonus: 0
+    splashDamageBonus: 0
+    splashRadiusBonus: 0
+    slowMultiplierBonus: 0
+    slowDurationBonus: 0
+    poisonDamagePerTickBonus: 0
+    poisonDurationBonus: 0
+    poisonTickRateMultiplier: 1
+    stunDurationBonus: 0
+    burnDamagePerTickBonus: 0
+    burnDurationBonus: 0
+    burnTickRateMultiplier: 0
+    resourceGainBonus: 45
+    resourceIntervalMultiplier: 3
+  - levelName: Level 4
+    upgradeCost: 900
+    damageBonus: 0
+    rangeBonus: 0
+    fireRateBonus: 0
+    splashDamageBonus: 0
+    splashRadiusBonus: 0
+    slowMultiplierBonus: 0
+    slowDurationBonus: 0
+    poisonDamagePerTickBonus: 0
+    poisonDurationBonus: 0
+    poisonTickRateMultiplier: 1
+    stunDurationBonus: 0
+    burnDamagePerTickBonus: 0
+    burnDurationBonus: 0
+    burnTickRateMultiplier: 0
+    resourceGainBonus: 85
+    resourceIntervalMultiplier: 3

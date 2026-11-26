@@ -15,12 +15,12 @@ MonoBehaviour:
   displayName: Damage Tower
   prefab: {fileID: 9215399825038353361, guid: acd9e56f72583bf46b60868e217283ef, type: 3}
   projectilePrefab: {fileID: 2092777232227346601, guid: 9aafb6cfde87f0341b3152d4145e07ca, type: 3}
-  cost: 100
+  cost: 400
   sellValue: 75
-  range: 5
-  fireRate: 5
-  damage: 10
-  projectileSpeed: 5
+  range: 7
+  fireRate: 3
+  damage: 14
+  projectileSpeed: 25
   targetMode: 0
   effectType: 0
   slowMultiplier: 0.1
@@ -41,7 +41,7 @@ MonoBehaviour:
   - levelName: Level 2
     upgradeCost: 100
     damageBonus: 2
-    rangeBonus: 0.3
+    rangeBonus: 0.75
     fireRateBonus: 1
     splashDamageBonus: 0
     splashRadiusBonus: 0
